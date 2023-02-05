@@ -22,14 +22,20 @@ header{
     margin:30px 60px 0 0 ;
     
 }
+.light_grey{
+    background-color: lightgray;
+}
 nav{
     background-color: grey;
+}
+tr{
+    color: antiquewhite;
 }
 nav button{
     border-right:1px white inset ;
     border-bottom: 2px grey inset;
     transition-duration: 0.4s;
-    padding: 10px;
+    padding: 15px;
 }
 nav button:hover{
     background-color: rgb(247, 204, 14);
@@ -41,6 +47,7 @@ main{
     background-color: rgb(245, 235, 223);
 }
 article{
+    background-color: wheat;
     display: grid;
     grid-template-areas: 
     "a a a a"
